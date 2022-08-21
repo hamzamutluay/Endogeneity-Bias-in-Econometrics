@@ -13,6 +13,7 @@ In other words, the OLS estimator is biased and inconsistent. Even if the sample
 
 The figure below shows the sampling distribution of the OLS estimator in case of weak and strong endogeneity
 
-<img src="https://user-images.githubusercontent.com/101017847/185761039-758b383e-55fc-44bc-81d7-1c083829d86a.png" width="800" height="800">
+![Combine](https://user-images.githubusercontent.com/101017847/185795763-53270bb9-ea56-4c86-8579-887f57649598.png)
+
 
 
