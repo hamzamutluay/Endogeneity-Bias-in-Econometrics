@@ -7,7 +7,7 @@ There are three main sources of endogeneity:
 * Measurement error
 * Reverse causality
 
-Endogeneity biase causes that the expected value of OLS estimator is no longer equals to true population parameter: $E(\hat\beta_{OLS})\neq\beta$
+Endogeneity bias causes that the expected value of OLS estimator is no longer equals to true population parameter: $E(\hat\beta_{OLS})\neq\beta$
 
 In other words, the OLS estimator is biased and inconsistent. Even if the sample size gets bigger, OLS estimator does not converge in probability to the true value of the population parameter: $plim(\hat\beta_{OLS})\neq\beta$
 
