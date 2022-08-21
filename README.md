@@ -11,9 +11,9 @@ Endogeneity biase causes that the expected value of OLS estimator is no longer e
 
 In other words, the OLS estimator is biased and inconsistent. Even if the sample size gets bigger, OLS estimator does not converge in probability to the true value of the population parameter: $plim(\hat\beta_{OLS})\neq\beta$
 
-The figure below shows the sampling distribution of the OLS estimator in the presence of weak and strong endogeneity
+The figure below shows the consistency of the OLS estimator in the presence or absence of endogeneity
 
-![Combine](https://user-images.githubusercontent.com/101017847/185795763-53270bb9-ea56-4c86-8579-887f57649598.png)
+<img width="785" alt="Combine1" src="https://user-images.githubusercontent.com/101017847/185812472-dc2a6e22-edcb-41ba-9058-2336022530b6.png">
 
 
 
