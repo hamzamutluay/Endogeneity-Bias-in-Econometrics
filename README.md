@@ -1,6 +1,6 @@
 **ENDOGENEITY BIAS**
 
-Endogeneity is a mahor problem in econometrics.It occurs when there is correlation between explanatory variables and the error term. Endogeneity bias is said to occur in a regression model if
+Endogeneity is a major problem in econometrics.It occurs when there is correlation between explanatory variables and the error term. Endogeneity bias is said to occur in a regression model if
 
 ![](https://latex.codecogs.com/gif.latex?E%28U%7CX_i%29%5Cneq%200)
 
