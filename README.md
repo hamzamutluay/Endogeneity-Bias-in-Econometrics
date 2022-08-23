@@ -76,7 +76,7 @@ di  		`dim_row' ,`dim_col'
 
 forv 		t = 1/`dim_col' {
 
-se 			obs `=n_all[`dim_row',`t']'
+se 		obs `=n_all[`dim_row',`t']'
 loc 		n = _N
 	
 mat 		betahat = J(`rep',3,.)
