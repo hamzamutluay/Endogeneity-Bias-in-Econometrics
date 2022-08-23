@@ -92,7 +92,7 @@ drawnorm 	x1 x2 u, n(`n') cov(Covmatrix) m(vector_mean)
 
 ** Data Generating Process
 
-g 			y = `beta0' + `beta1'*x1 + `beta2'*x2 + u
+g 		y = `beta0' + `beta1'*x1 + `beta2'*x2 + u
 
 
 ** Estimated Model
