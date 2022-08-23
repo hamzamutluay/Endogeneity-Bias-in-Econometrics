@@ -30,9 +30,9 @@ se se 		199006 // Set the seed to reproduce the same output of simulation
 numlist 	"100(900)10000" // Sample sizes
 loc 		numlist `r(numlist)'
 loc 		numlist :  subinstr loc numlist " " ",", all
-mat			n_all = (`numlist')
-loc     dim_col = colsof(n_all)
-loc     dim_row = rowsof(n_all)
+mat		n_all = (`numlist')
+loc             dim_col = colsof(n_all)
+loc             dim_row = rowsof(n_all)
 mat 		li n_all
 
 *-------------------------------------------
@@ -127,11 +127,11 @@ mat 		coef_matrix[`t',4] = n_all[`dim_row',`t']
 
 }
 
-mat			colname coef_matrix = betahat0 betahat1 betahat2 samplesize
+mat		colname coef_matrix = betahat0 betahat1 betahat2 samplesize
 mat li 		coef_matrix
 
 
-svmat       coef_matrix, names(col)
+svmat           coef_matrix, names(col)
 
 
 scatter     betahat2 samplesize,  /*
@@ -204,7 +204,7 @@ drawnorm 	x1 x2 u, n(`n') cov(Covmatrix) m(vector_mean)
 
 ** Data Generating Process
 
-g 			y = `beta0' + `beta1'*x1 + `beta2'*x2 + u
+g 		y = `beta0' + `beta1'*x1 + `beta2'*x2 + u
 
 
 ** Estimated Model
@@ -241,8 +241,8 @@ sca 		bias_betahat1  = ((sum_betahat1/`rep') - `beta1')*100
 sca 		bias_betahat2  = ((sum_betahat2/`rep') - `beta2')*100
 
 
-di 			" Bias of betahat0 = " bias_betahat0
-di 			" Bias of betahat1 = " bias_betahat1
-di 			" Bias of betahat2 = " bias_betahat2
+di 		" Bias of betahat0 = " bias_betahat0
+di 		" Bias of betahat1 = " bias_betahat1
+di 		" Bias of betahat2 = " bias_betahat2
 ```
 ---
